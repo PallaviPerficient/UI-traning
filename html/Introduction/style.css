@@ -2,3 +2,7 @@ body {
     background-color: bisque;
     text-decoration: underline;
 }
+
+.section {
+    border-top: 1em solid transparent;
+}
