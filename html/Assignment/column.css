@@ -1,0 +1,40 @@
+.col1,
+.col2,
+.col3,
+.col4 {
+    width: 100%;
+}
+
+.column {
+    float: left;
+    border: 1px solid green;
+    box-sizing: border-box;
+}
+
+.col-1 .column {
+    width: 100%;
+}
+
+.col-2 .column {
+    width: 50%;
+}
+
+.col-3 .column {
+    width: 33.33%;
+}
+
+.col4 .column {
+    width: 25%;
+}
+
+.align-left {
+    text-align: left;
+}
+
+.align-right {
+    text-align: right;
+}
+
+.align-center {
+    text-align: center;
+}

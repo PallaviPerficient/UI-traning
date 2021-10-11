@@ -1,0 +1,279 @@
+body {
+    background-color: #f4f5f9;
+    font-size: 13px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.white-background {
+    background-color: white;
+}
+
+.blue-color {
+    color: #007fb9;
+}
+
+.login-background {
+    background-color: #015172;
+}
+
+.color-white {
+    color: white;
+}
+
+.blue-background {
+    background-color: #007fb9;
+}
+
+.icon-color {
+    color: #9bd5ee;
+}
+
+.background-gray {
+    background-color: #333333;
+}
+
+.grey-color {
+    color: #5a5858;
+}
+
+.column {
+    float: left;
+}
+
+.col-1 .column {
+    width: 100%;
+}
+
+.col-2 .column {
+    width: 50%;
+}
+
+.col-3 .column {
+    width: 33.33%;
+}
+
+.col-4 .column {
+    width: 25%;
+}
+
+.align-left {
+    text-align: left;
+}
+
+.align-center {
+    text-align: center;
+}
+
+ul.navbar li {
+    display: inline-block;
+    margin: 6px 0;
+}
+
+.navbar li a {
+    text-decoration: none;
+    padding: 4px;
+}
+
+.top-header {
+    overflow: hidden;
+}
+
+.navbar {
+    padding: 0 20px;
+    display: inline-block;
+    margin: 0%;
+    margin-top: 2px;
+    height: 22px;
+}
+
+.search {
+    position: absolute;
+    left: 154px;
+    top: 9px;
+}
+
+.search-text {
+    display: inline-block;
+    position: relative;
+}
+
+.container {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.search-height {
+    height: 25px;
+}
+
+.button-height {
+    background-color: #006792;
+    height: 30px;
+    width: 104px;
+    border: 1px;
+    word-spacing: 2px;
+}
+
+.logo {
+    padding: 6px 15px;
+}
+
+.navigation {
+    padding: 12px 0;
+    border-top: 1px solid #ccc;
+    margin: 1px 0 0;
+}
+
+.navigation a {
+    padding: 13px;
+    text-decoration: none;
+}
+
+.seperator {
+    border-top: 5px solid #007fb9;
+    width: 150px;
+    margin: 30px auto 0px;
+}
+
+.f-right {
+    float: right;
+}
+
+.f-left {
+    float: left;
+}
+
+.services {
+    padding: 60px 0px;
+    padding-bottom: 170px;
+}
+
+.font-22 {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.font-16 {
+    font-size: 16px;
+}
+
+.font-14 {
+    font-size: 14px;
+}
+
+.top-margin {
+    padding-top: 70px;
+}
+
+.bottom-margin {
+    margin-bottom: 0px;
+}
+
+.doctor-services {
+    margin-bottom: 50px;
+}
+
+.slider {
+    margin: 29px 117px 83px 90px;
+}
+
+.dakota-members {
+    padding: 600px 90px 250px;
+}
+
+.grey-background {
+    border: 1px solid rgb(230, 230, 230);
+    box-sizing: border-box;
+    background-color: #f4f5f9;
+}
+
+.heading {
+    padding-left: 0px;
+}
+
+.padding-bottom {
+    padding-bottom: 90px;
+}
+
+.padding-right-left {
+    padding: 0 95px;
+}
+
+.font-46 {
+    font-size: 46px;
+}
+
+.margin-top {
+    margin-top: 4.5px;
+}
+
+.top {
+    margin-top: 0px;
+}
+
+.font8-5 {
+    font-size: 8.5px;
+}
+
+.font-11 {
+    font-size: 11px;
+}
+
+.bottom {
+    margin-bottom: 1px;
+}
+
+.table {
+    margin: 10px 0;
+}
+
+.button1 {
+    border: none;
+    padding: 10px 25px;
+    margin: 4px 2px;
+}
+
+.vertical-line {
+    border-left: 2px solid black;
+    height: 65px;
+    padding-right: 30px;
+}
+
+.padding-top {
+    padding-top: 200px;
+    padding-right: 100px;
+}
+
+.contact {
+    display: flex;
+    margin-left: 22%;
+    margin-top: 10px;
+}
+
+.num {
+    padding-right: 30px;
+}
+
+.text-left {
+    padding-top: 50px;
+    margin-left: 400px;
+}
+
+.footer {
+    padding-bottom: 20px;
+}
+
+.padding0px {
+    padding: 0%;
+}
+
+.margin0px {
+    margin: 0%;
+}
+
+.margin-bottom {
+    margin-bottom: 2px;
+}
