@@ -1,0 +1,38 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.grid-item {
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    position: relative;
+}
+
+.button {
+    border: none;
+    padding: 10px 25px;
+    margin: 4px 2px;
+    color: white;
+    background-color: #007fb9;
+    width: 370px;
+    position: absolute;
+    top: 122%;
+    height: 48px;
+    font-size: 16px;
+}
+
+.left {
+    left: 44px;
+}
+
+.mid {
+    left: 490px;
+}
+
+.right {
+    left: 936px;
+}

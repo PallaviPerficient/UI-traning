@@ -36,7 +36,11 @@ img {
 }
 
 .grey-color {
-    color: #5a5858;
+    color: #9c9090;
+}
+
+.word-spacing {
+    word-spacing: 20px;
 }
 
 .column {
@@ -91,7 +95,7 @@ ul.navbar li {
 
 .search {
     position: absolute;
-    left: 154px;
+    left: 135px;
     top: 9px;
 }
 
@@ -255,6 +259,7 @@ ul.navbar li {
 
 .num {
     padding-right: 30px;
+    padding-left: 10px;
 }
 
 .text-left {
@@ -276,4 +281,8 @@ ul.navbar li {
 
 .margin-bottom {
     margin-bottom: 2px;
+}
+
+.table-height {
+    height: 165px;
 }
