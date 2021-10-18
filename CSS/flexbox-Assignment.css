@@ -1,0 +1,189 @@
+/*-- ---header----- --> */
+
+*,
+* ::before,
+::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1024px;
+    margin: 0 auto;
+    position: relative;
+}
+
+img {
+    width: 100%;
+    opacity: 1.7;
+    position: relative;
+    padding-bottom: 50px;
+}
+
+.centered {
+    position: absolute;
+    top: 215px;
+    left: 245px;
+}
+
+.text-block {
+    position: absolute;
+    top: 26px;
+    padding-left: 45px;
+}
+
+.text-decoration {
+    text-decoration: none;
+}
+
+.text-block1 {
+    position: absolute;
+    top: 26px;
+    word-spacing: 55px;
+    left: 557px;
+}
+
+.button {
+    border: none;
+    color: white;
+    background-color: #007fb9;
+    width: 232px;
+    position: absolute;
+    height: 45px;
+    left: 164px;
+    top: 130px;
+}
+
+
+/* <- ----Flex-work---- --> */
+
+.img-area {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+/* .image>* {
+    padding: 7px 85px 20px;
+} */
+
+.small {
+    flex-basis: 40%;
+    padding: 20px;
+}
+
+.large {
+    flex-basis: 60%;
+    padding: 20px;
+}
+
+.padding {
+    padding: 40px;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.font-46 {
+    font-size: 46px;
+}
+
+.seperator {
+    border-top: 5px solid #007fb9;
+    width: 150px;
+    margin: 32px auto 32px;
+}
+
+.background-color {
+    background-color: rgb(228, 217, 217);
+}
+
+
+/* <!-- ----Features and Services----- --> */
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+.flex div {
+    font-size: 30px;
+    text-align: center;
+    line-height: 20px;
+}
+
+.font-14 {
+    font-size: 14px;
+}
+
+.font-18 {
+    font-size: 18px;
+}
+
+.margin {
+    margin: 10px;
+}
+
+.icon-camera {
+    width: 203px;
+}
+
+.padding-top {
+    padding-top: 45px;
+}
+
+.padding-bottom {
+    padding-bottom: 30px;
+}
+
+.color-blue {
+    color: blue;
+}
+
+.color-black {
+    color: black;
+}
+
+
+/* <!-- -----Footer----- --> */
+
+.button1 {
+    border: none;
+    padding: 10px 33px;
+    margin: 4px 2px;
+    font-weight: bold;
+    height: 34px;
+}
+
+.blue-background {
+    background-color: #007fb9;
+}
+
+.color-white {
+    color: white;
+}
+
+.email-box {
+    height: 33px;
+    width: 430px;
+    margin-left: 177px;
+}
+
+.padding-bottom2 {
+    padding-bottom: 55px;
+}
+
+.grey-background {
+    background-color: #413f3f;
+}
+
+.font-30 {
+    font-size: 30px;
+}
+
+.grey-background2 {
+    color: grey;
+    line-height: 2;
+}

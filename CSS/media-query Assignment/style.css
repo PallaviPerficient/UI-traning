@@ -1,0 +1,29 @@
+.background {
+    background-color: lavenderblush;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.align-left {
+    text-align: left;
+}
+
+.font-40 {
+    font-size: 40px;
+}
+
+.color {
+    color: rgb(131, 7, 7);
+}
+
+.paragraph {
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+img {
+    margin-left: 523px;
+}
