@@ -1,0 +1,106 @@
+/* -----Header----- */
+
+.banner {
+    position: relative;
+}
+
+.background-color {
+    background-color: rgb(219, 213, 213);
+}
+
+.color-white {
+    color: white;
+}
+
+.centered {
+    position: absolute;
+    top: 0px;
+    font-size: 40px;
+}
+
+.align-center {
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.row:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+[class*="col-"] {
+    float: left;
+    width: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+@media only screen and (min-width: 600px) {
+    /* for Mobile */
+    .col-s-12 {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    /* For Tablet */
+    .col-6 {
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    /* For desktop */
+    .col-l-3 {
+        width: 25%;
+    }
+    .col-l-4 {
+        width: 33.33%;
+    }
+    .col-l-6 {
+        width: 50%;
+    }
+}
+
+
+/* ---------Main Content-------- */
+
+.margin-card {
+    margin: 10px;
+}
+
+.content-backgroundcolor {
+    background-color: grey;
+}
+
+.font-22 {
+    font-size: 22px;
+}
+
+.padding-bottom {
+    padding-bottom: 16px;
+}
+
+.image-height {
+    height: 300px;
+}
+
+
+/* ---Footer--- */
+
+.footer-background {
+    background-color: rgb(110, 47, 47);
+    padding: 20px;
+    margin-bottom: 0;
+}
+
+.font-30 {
+    font-size: 30px;
+}

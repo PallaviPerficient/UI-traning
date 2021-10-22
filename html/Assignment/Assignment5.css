@@ -1,0 +1,80 @@
+.banner {
+    position: relative;
+    width: 100%;
+}
+
+.background-color {
+    background-color: rgb(219, 213, 213);
+}
+
+.color-white {
+    color: white;
+}
+
+.centered {
+    position: absolute;
+    top: 6px;
+    font-size: 50px;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.font-40 {
+    font-size: 40px;
+}
+
+.padding {
+    padding: 15px;
+}
+
+.margin {
+    margin: 20px;
+}
+
+.card {
+    border: none;
+    margin: 0 25px 0 25px;
+}
+
+.card-body {
+    background: linear-gradient(to bottom, rgb(187, 167, 172) 45%, rgb(253, 244, 247) 100%);
+}
+
+.product-image {
+    padding-left: 10px;
+}
+
+.bestseller-image {
+    margin-left: 25px;
+}
+
+.recently-image {
+    margin-left: 30px;
+}
+
+.font-weight {
+    font-weight: bold;
+}
+
+.margin-bottom {
+    margin-bottom: 20px;
+}
+
+
+/* ---Footer--- */
+
+.footer-background {
+    background-color: rgb(24, 21, 21);
+    padding: 20px;
+    margin-bottom: 0;
+}
+
+.image-height {
+    height: 300px;
+}
+
+.font-30 {
+    font-size: 30px;
+}

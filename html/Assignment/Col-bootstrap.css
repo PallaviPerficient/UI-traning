@@ -1,0 +1,59 @@
+img {
+    position: relative;
+}
+
+.banner {
+    max-width: 100%;
+}
+
+.centered {
+    position: absolute;
+    top: 286px;
+    left: 617px;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.font-46 {
+    font-size: 46px;
+}
+
+.color-white {
+    color: white;
+}
+
+
+/* .card {
+    max-width: 330px;
+    text-align: center;
+    border: 1px solid #f1efef;
+    background-color: wheat;
+} */
+
+
+/* .price {
+    color: rgb(37, 5, 68);
+    font-size: 22px;
+    font-size: 16px;
+} */
+
+.margin {
+    margin-left: 71px;
+}
+
+.margin-bottom {
+    margin-bottom: 30px;
+}
+
+.margin-left {
+    margin-left: 265px;
+}
+
+
+/* ----footer----- */
+
+.grey-background {
+    background-color: #ccc;
+}
