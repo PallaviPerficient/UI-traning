@@ -1,6 +1,6 @@
 body {
     background-color: #f4f5f9;
-    font-size: 13px;
+    font-size: 14px;
 }
 
 img {
@@ -87,8 +87,6 @@ ul.navbar li {
 
 .navbar {
     padding: 0 20px;
-    display: inline-block;
-    margin: 0%;
     margin-top: 2px;
     height: 22px;
 }
@@ -100,7 +98,6 @@ ul.navbar li {
 }
 
 .search-text {
-    display: inline-block;
     position: relative;
 }
 
@@ -110,25 +107,22 @@ ul.navbar li {
 }
 
 .search-height {
-    height: 25px;
+    height: 31px;
 }
 
 .button-height {
     background-color: #006792;
-    height: 30px;
+    height: 37px;
     width: 104px;
-    border: 1px;
-    word-spacing: 2px;
 }
 
 .logo {
-    padding: 6px 15px;
+    padding: 6px 9px;
 }
 
 .navigation {
-    padding: 12px 0;
+    padding: 12px;
     border-top: 1px solid #ccc;
-    margin: 1px 0 0;
 }
 
 .navigation a {
@@ -146,13 +140,8 @@ ul.navbar li {
     float: right;
 }
 
-.f-left {
-    float: left;
-}
-
 .services {
-    padding: 60px 0px;
-    padding-bottom: 170px;
+    padding: 110px 38px;
 }
 
 .font-22 {
@@ -164,20 +153,8 @@ ul.navbar li {
     font-size: 16px;
 }
 
-.font-14 {
-    font-size: 14px;
-}
-
-.top-margin {
-    padding-top: 70px;
-}
-
-.bottom-margin {
-    margin-bottom: 0px;
-}
-
 .doctor-services {
-    margin-bottom: 50px;
+    padding: 30px;
 }
 
 .slider {
@@ -215,7 +192,7 @@ ul.navbar li {
 }
 
 .top {
-    margin-top: 0px;
+    margin-top: 0;
 }
 
 .font8-5 {
@@ -272,11 +249,11 @@ ul.navbar li {
 }
 
 .padding0px {
-    padding: 0%;
+    padding: 0;
 }
 
 .margin0px {
-    margin: 0%;
+    margin: 0;
 }
 
 .margin-bottom {

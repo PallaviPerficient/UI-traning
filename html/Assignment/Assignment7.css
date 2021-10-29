@@ -11,6 +11,10 @@ img {
     float: left;
 }
 
+.f-right {
+    float: right;
+}
+
 .white-background {
     background-color: white;
 }
@@ -47,10 +51,6 @@ img {
     word-spacing: 20px;
 }
 
-.f-right {
-    float: right;
-}
-
 .align-left {
     text-align: left;
 }
@@ -69,17 +69,8 @@ ul.navbar li {
     padding: 4px;
 }
 
-.top-header {
-    overflow: hidden;
-}
-
-.topheader-mobile {
-    overflow: hidden;
-}
-
 .navbar {
     padding: 0 20px;
-    display: inline-block;
     margin: 0%;
     margin-top: 2px;
     height: 22px;
@@ -110,7 +101,6 @@ ul.navbar li {
     width: 104px;
     border: 1px;
     word-spacing: 2px;
-    background-color: #007fb9;
 }
 
 .logo {
@@ -120,7 +110,6 @@ ul.navbar li {
 .navigation {
     padding: 12px 0;
     border-top: 1px solid #ccc;
-    margin: 1px 0 0;
 }
 
 .navigation a {
@@ -285,21 +274,17 @@ ul.navbar li {
 }
 
 .padding0px {
-    padding: 0%;
-}
-
-.footer-navigation {
-    padding: 12px 0;
+    padding: 0;
 }
 
 .footer-navigation a {
-    padding: 10px;
+    padding: 23px 50px;
     text-decoration: none;
     display: inline-block;
 }
 
 .margin0px {
-    margin: 0%;
+    margin: 0;
 }
 
 .margin-bottom {
@@ -330,13 +315,6 @@ ul.navbar li {
 }
 
 @media only screen and (max-width: 600px) {
-    /* for Mobile */
-    .col-s-1 {
-        width: 8.33%;
-    }
-    .col-s-2 {
-        width: 16.66%;
-    }
     .col-s-3 {
         width: 25%;
     }
@@ -349,20 +327,8 @@ ul.navbar li {
     .col-s-6 {
         width: 50%;
     }
-    .col-s-7 {
-        width: 58.33%;
-    }
-    .col-s-8 {
-        width: 66.66%;
-    }
     .col-s-9 {
         width: 75%;
-    }
-    .col-s-10 {
-        width: 83.33%;
-    }
-    .col-s-11 {
-        width: 91.66%;
     }
     .col-s-12 {
         width: 100%;
@@ -455,7 +421,6 @@ ul.navbar li {
     .search {
         left: 165px;
         top: 9px;
-        color: rgb(63, 165, 206);
     }
     .button-height {
         width: 99px;
@@ -463,45 +428,27 @@ ul.navbar li {
     .navbar-padding {
         padding-left: 38px;
     }
-    .navbarow-padding {
-        padding-bottom: 7px;
-    }
     ul {
         list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        background-color: #015172;
-    }
-    li {
-        float: left;
     }
     li a,
     .dropbtn {
-        display: inline-block;
-        color: white;
-        text-align: center;
         padding: 8px 17px;
         text-decoration: none;
     }
     .dropdown-content {
         display: none;
         position: absolute;
-        background-color: #015172;
         z-index: 1;
     }
     .dropdown-content a {
-        color: white;
-        padding: 12px 16px;
-        text-decoration: none;
         display: block;
-        text-align: left;
     }
     .dropdown:hover .dropdown-content {
         display: block;
     }
-    .logo {
-        padding: 4px;
+    .logo-desktop {
+        display: none;
     }
     .bars {
         font-size: 45px;
@@ -523,14 +470,14 @@ ul.navbar li {
         text-decoration: none;
         display: block;
     }
+    .mobile-footer {
+        display: block;
+    }
 }
 
 @media only screen and (min-width: 768px) {
     .col-1 {
         width: 8.33%;
-    }
-    .col-2 {
-        width: 16.66%;
     }
     .col-3 {
         width: 25%;
@@ -543,21 +490,6 @@ ul.navbar li {
     }
     .col-6 {
         width: 50%;
-    }
-    .col-7 {
-        width: 58.33%;
-    }
-    .col-8 {
-        width: 66.66%;
-    }
-    .col-9 {
-        width: 75%;
-    }
-    .col-10 {
-        width: 83.33%;
-    }
-    .col-11 {
-        width: 91.66%;
     }
     .col-12 {
         width: 100%;
@@ -577,12 +509,8 @@ ul.navbar li {
 }
 
 @media only screen and (min-width: 1024px) {
-    /* For desktop */
     .col-l-1 {
         width: 8.33%;
-    }
-    .col-l-2 {
-        width: 16.66%;
     }
     .col-l-3 {
         width: 25%;
@@ -595,21 +523,6 @@ ul.navbar li {
     }
     .col-l-6 {
         width: 50%;
-    }
-    .col-l-7 {
-        width: 58.33%;
-    }
-    .col-l-8 {
-        width: 66.66%;
-    }
-    .col-l-9 {
-        width: 75%;
-    }
-    .col-l-10 {
-        width: 83.33%;
-    }
-    .col-l-11 {
-        width: 91.66%;
     }
     .col-l-12 {
         width: 100%;

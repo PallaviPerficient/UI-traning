@@ -1,0 +1,34 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.container {
+    width: 210px;
+    margin: 56px 56px;
+    background-color: rgb(150, 151, 140);
+    border: 2px solid black;
+}
+
+.number1 {
+    padding: 8px;
+}
+
+.block-padding {
+    padding: 8px;
+}
+
+.action-button {
+    width: 44px;
+    height: 35px;
+    background-color: brown;
+    font-size: 25px;
+}
+
+.clear-button {
+    margin: 8px 104px;
+    width: 94px;
+    height: 37px;
+    background-color: bisque;
+    font-size: 15px;
+}
