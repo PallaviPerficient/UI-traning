@@ -4,7 +4,7 @@ body {
 }
 
 img {
-    max-width: 100%;
+    max-width: 100%
 }
 
 .white-background {
@@ -87,14 +87,14 @@ ul.navbar li {
 
 .navbar {
     padding: 0 20px;
-    margin-top: 2px;
+    margin-top: 5px;
     height: 22px;
 }
 
 .search {
     position: absolute;
     left: 135px;
-    top: 9px;
+    top: 14px;
 }
 
 .search-text {
@@ -107,17 +107,12 @@ ul.navbar li {
 }
 
 .search-height {
-    height: 31px;
+    height: 38px;
 }
 
 .button-height {
-    background-color: #006792;
-    height: 37px;
+    height: 44px;
     width: 104px;
-}
-
-.logo {
-    padding: 6px 9px;
 }
 
 .navigation {
@@ -149,11 +144,7 @@ ul.navbar li {
     font-size: 22px;
 }
 
-.font-16 {
-    font-size: 16px;
-}
-
-.doctor-services {
+.more-doctor {
     padding: 30px;
 }
 
@@ -169,10 +160,6 @@ ul.navbar li {
     border: 1px solid rgb(230, 230, 230);
     box-sizing: border-box;
     background-color: #f4f5f9;
-}
-
-.heading {
-    padding-left: 0px;
 }
 
 .padding-bottom {
@@ -220,23 +207,16 @@ ul.navbar li {
 .vertical-line {
     border-left: 2px solid black;
     height: 65px;
-    padding-right: 30px;
-}
-
-.padding-top {
-    padding-top: 200px;
-    padding-right: 100px;
+    padding-right: 17px;
 }
 
 .contact {
     display: flex;
-    margin-left: 22%;
-    margin-top: 10px;
+    margin: 6px 217px;
 }
 
 .num {
-    padding-right: 30px;
-    padding-left: 10px;
+    padding: 1px 12px;
 }
 
 .text-left {
@@ -254,10 +234,6 @@ ul.navbar li {
 
 .margin0px {
     margin: 0;
-}
-
-.margin-bottom {
-    margin-bottom: 2px;
 }
 
 .table-height {

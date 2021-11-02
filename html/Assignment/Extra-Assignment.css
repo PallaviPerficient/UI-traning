@@ -1,0 +1,190 @@
+body {
+    font-size: 14px;
+}
+
+.column {
+    float: left;
+}
+
+.col-1 .column {
+    width: 100%;
+}
+
+.col-2 .column {
+    width: 50%;
+}
+
+.col-3 .column {
+    width: 33.33%;
+}
+
+.col-4 .column {
+    width: 25%;
+}
+
+.logo {
+    padding-left: 20px;
+}
+
+.background-white {
+    background-color: white;
+}
+
+.header {
+    position: absolute;
+    top: 80px;
+    left: 136px;
+    height: 70px;
+    width: 1092px;
+    padding-top: 16px;
+}
+
+.relative-position {
+    position: relative;
+    opacity: 5px;
+    width: 100%;
+}
+
+.navbar {
+    padding-left: 245px;
+}
+
+ul.navbar li {
+    display: inline-block;
+    margin: 6px 0;
+}
+
+.navbar li a {
+    text-decoration: none;
+    padding: 35px;
+    border-left: 1px solid grey;
+    color: grey;
+}
+
+.card {
+    position: absolute;
+    top: 293px;
+    left: 180px;
+    height: 295px;
+    width: 329px;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.border-none {
+    border: none;
+}
+
+.button {
+    height: 54px;
+    width: 94px;
+    background-color: red;
+    margin: 20px 118px;
+    color: white;
+    font-size: 22px;
+}
+
+.booking-button {
+    background-color: yellowgreen;
+    height: 54px;
+    width: 152px;
+    margin: 20px 89px;
+    color: white;
+    font-size: 14px;
+}
+
+.container {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.image_width {
+    padding: 0 20px;
+    position: absolute;
+}
+
+.image_destination1 {
+    width: 214px;
+    top: 658px;
+}
+
+.image_destination2 {
+    width: 214px;
+    top: 658px;
+    left: 420px;
+}
+
+.image_destination3 {
+    width: 214px;
+    top: 658px;
+    left: 675px;
+}
+
+.image_destination4 {
+    width: 214px;
+    top: 658px;
+    left: 930px;
+}
+
+.button-destination1 {
+    position: absolute;
+    background-color: yellowgreen;
+    height: 30px;
+    width: 213px;
+    color: white;
+    top: 628px;
+}
+
+.main_content-button1 {
+    left: 184px;
+}
+
+.main_content-button2 {
+    left: 440px;
+}
+
+.main_content-button3 {
+    left: 695px;
+}
+
+.main_content-button4 {
+    left: 951px;
+}
+
+.content {
+    padding: 155px 19px;
+}
+
+.content2 {
+    padding: 155px 49px;
+}
+
+.content3 {
+    padding: 155px 13px;
+}
+
+.content4 {
+    padding: 155px 47.5px;
+}
+
+.color-green {
+    color: yellowgreen;
+}
+
+.color-red {
+    color: red;
+}
+
+ul.partner li {
+    display: inline-block;
+}
+
+.partner {
+    display: block;
+}
+
+ul.partner li {
+    display: inline-block;
+}
