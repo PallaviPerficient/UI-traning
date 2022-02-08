@@ -12,12 +12,12 @@ h1{
     width: 70%;
     margin: auto;
     margin-top: 2%;
-    color: rgb(133, 100, 133);
+    color: rgb(175, 72, 175);
 }
 .container{
     width: 20%;
     margin: 4% 40%;
-    border: 1px solid rgb(66, 66, 66);
+    border: 5px solid rgb(66, 66, 66);
     border-radius: 5px;
     padding: 10px 35px;
 }
