@@ -2,10 +2,14 @@
     box-sizing: border-box;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+.heading{
+    text-align: center;
+    color:rgb(3, 190, 128);
+}
 .container{
     width: 50%;
     margin: 1% 25%;
-    border: 3px double rgb(91, 5, 252);
+    border: 7px double rgb(9, 2, 20);
     border-radius: 5px;
     padding: 10px 35px;
 }
@@ -25,14 +29,14 @@ input{
     height: 30px;
     outline: none;
     border-radius: 5px;
-    border:3px solid rgb(42, 35, 142);
+    /* border:3px solid rgb(102, 96, 184); */
 }
 input:focus{
     border:3px solid rgb(0, 4, 255);
 }
 input[type="submit"]{
-    background-color: rgb(55, 0, 255);
-    margin-left: 27%;
+    background-color: rgb(36, 97, 94);
+    margin-left: 15%;
     color: rgb(255, 255, 255);
 }
 .table-container{
@@ -40,7 +44,7 @@ input[type="submit"]{
     margin: auto;
 }
 td, th{
-    border: 2px solid black;
+    border: 1px solid black;
     background-color: rgb(211, 211, 211);
     padding: 8px;
     font-size: 15px;
