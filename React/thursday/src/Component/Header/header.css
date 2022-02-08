@@ -1,0 +1,18 @@
+.mainHeader{
+    border: 2px solid black;
+    background-color: #232F3F;
+
+}
+.header{
+    color: rgb(255,153,0);
+    display: inline-block;
+    font-size:95px;
+    padding-left: 386px;
+}
+img{
+    height: 116px;
+    width: 185px;
+}
+.login{
+    display: inline-block;
+}

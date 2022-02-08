@@ -1,0 +1,16 @@
+//mixin
+@mixin flex{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+@mixin colorBlue{
+    color: rgb(98, 0, 255);
+}
+@mixin colorsky-blue{
+    color: rgb(147, 212, 228);
+}
+@mixin commoncode{
+      font-family:'Times New Roman', Times, serif;
+}

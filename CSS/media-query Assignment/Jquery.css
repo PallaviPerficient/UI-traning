@@ -22,11 +22,10 @@ img {
 }
 
 .header {
-    background-color: #c3e1eb;
-    color: #660c0c;
+    background-color: #1fa2ce;
+    color: #2f0c66;
     padding: 8px;
     font-size: 20px;
-    border: 2px solid blueviolet;
 }
 
 .menu ul {
@@ -165,4 +164,9 @@ img {
     text-align: center;
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
+}
+
+.image {
+    width: 150px;
+    /* margin: 13px 375px; */
 }

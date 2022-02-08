@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta name="viewport"content="width=device-width, initial-scale=1">
+	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="slider.css">
+</head>
+
+<body>
+	<center>
+		<h1 style="color:green">
+			Slider
+		</h1>
+	</center>
+	
+	<!-- Image container of the image slider -->
+	<div class="image-container">
+		<div class="slide">
+			<div class="slideNumber">1</div>
+			<img src="https://www.geeksforgeeks.org/wp-content/uploads/html-768x256.png">
+		</div>
+		<div class="slide">
+			<div class="slideNumber">2</div>
+			<img src="C:\Users\Pallavi.kanfade\Downloads\Pallavigithub\UI-traning\html\Assignment\Images2\technology.jpg">
+		</div>
+		<div class="slide">
+			<div class="slideNumber">3</div>
+			<img src="C:\Users\Pallavi.kanfade\Downloads\Pallavigithub\UI-traning\html\Assignment\Images2\Technology4.jpg">
+		</div>
+		<div class="slide">
+			<div class="slideNumber">4</div>
+			<img src="C:\Users\Pallavi.kanfade\Downloads\Pallavigithub\UI-traning\html\Assignment\Images2\technology.jpg">
+		</div>
+
+		<a class="previous" onclick="moveSlides(-1)">
+			<i class="fa fa-chevron-circle-left"></i>
+		</a>
+		<a class="next" onclick="moveSlides(1)">
+			<i class="fa fa-chevron-circle-right"></i>
+		</a>
+	</div>
+	<br>
+
+	<div style="text-align:center">
+		<span class="footerdot"onclick="activeSlide(1)"></span>
+		<span class="footerdot"onclick="activeSlide(2)"></span>
+		<span class="footerdot"onclick="activeSlide(3)"></span>
+		<span class="footerdot"onclick="activeSlide(4)"></span>
+	</div>
+	<script src="slider.js"></script>
+
+
+</body>
+
+</html>

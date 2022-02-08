@@ -1,0 +1,31 @@
+body{
+    background-color: #e1e1e1;
+    max-width: 100%;
+}
+.logo{
+    float: left;
+    height: 50px;
+    width: 50px;
+    margin: 7px;
+}
+.Table{
+    border-top: 1px solid grey;
+    width: 100%;
+    padding: 8px;
+    border-bottom: 1px solid grey;
+}
+.Banner{
+    height: 10%;
+    width: 100%;
+}
+.heading{
+    float: left;
+    margin: 7px;
+}
+/* .feature{
+    margin: 29px 49px;
+} */
+.feature_image{
+    padding: 50px;
+    margin: 29px 49px;
+}

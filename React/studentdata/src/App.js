@@ -1,0 +1,20 @@
+import {BrowserRouter ,Routes ,Route} from "react-router-dom";
+import Home from "./Components/Pages/Home";
+import View from "./Components/Student/View";
+import Edit from "./Components/Student/Edit";
+function App() {
+  return (
+    <>
+    <BrowserRouter>
+      <Routes>
+          <Route exact path="/" element={<Home/>}/>
+          <Route exact path="/view/:id" element={<View/>}/>
+          <Route exact path="/edit/:id" element={<Edit/>}/>
+      </Routes>
+    </BrowserRouter>
+    </>
+  );
+}
+
+export default App;
+

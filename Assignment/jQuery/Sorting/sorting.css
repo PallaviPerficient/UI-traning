@@ -1,0 +1,24 @@
+table, th, td {
+    padding: 10px 50px;  
+}
+.table-heading th{
+    background-color: rgb(16, 99, 71);
+    color: black;
+}
+
+.down{
+    position: absolute;
+    top:37px;
+
+}
+.up{
+position: absolute;
+top:25px;
+cursor: pointer;
+
+}
+tr:nth-child(odd) {
+
+    background-color: rgb(205, 223, 210);
+
+}

@@ -1,0 +1,36 @@
+body {
+    font-family: cursive;
+    background-color: #f1f1f1;
+}
+
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: pink;
+    padding: 3px 8px;
+}
+
+.tab button {
+    padding: 11px 18px;
+    font-size: 15px;
+    color: royalblue;
+    font-weight: bold;
+}
+
+.tab button:hover {
+    background-color: white;
+    color: orange;
+}
+
+.button-margin {
+    margin: 0;
+}
+
+.tabcontent {
+    display: none;
+    padding: 27px 31px;
+}
+
+.button-height {
+    padding-bottom: 5px;
+}

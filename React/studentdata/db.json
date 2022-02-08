@@ -1,0 +1,16 @@
+{
+  "student": [
+    {
+      "stuname": "Pallavi Kanfade",
+      "email": "Pallavi.kanfade@perficient.com",
+      "number": "123456789",
+      "id": 1
+    },
+    {
+      "stuname": "pdsk",
+      "email": "nvjds",
+      "number": "4521",
+      "id": 2
+    }
+  ]
+}

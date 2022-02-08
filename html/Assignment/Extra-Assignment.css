@@ -169,6 +169,13 @@ ul.navbar li {
     padding: 155px 47.5px;
 }
 
+.price-button {
+    background-color: yellowgreen;
+    height: 30px;
+    width: 213px;
+    color: white;
+}
+
 .color-green {
     color: yellowgreen;
 }
@@ -177,7 +184,12 @@ ul.navbar li {
     color: red;
 }
 
-ul.partner li {
+.content-margin {
+    margin-top: -7px;
+}
+
+
+/* ul.partner li {
     display: inline-block;
 }
 
@@ -187,4 +199,58 @@ ul.partner li {
 
 ul.partner li {
     display: inline-block;
+} */
+
+.endlist {
+    margin-bottom: -38px;
+}
+
+.partners {
+    /* width: 100%; */
+    height: auto;
+    margin-top: 300px;
+}
+
+.partners ul li {
+    display: inline-block;
+    width: 130px;
+    background-color: rgb(247, 244, 244);
+    list-style-type: none;
+    padding: 15px;
+    height: 98px;
+    margin-left: -4px;
+}
+
+.images {
+    margin-left: 0px;
+    text-align: center;
+    padding: 14px;
+    border-right: 1px solid rgb(211, 205, 205);
+    border-left: 1px solid rgb(211, 205, 205);
+}
+
+.padding {
+    padding: 24px;
+}
+
+.font-20 {
+    font-size: 20px;
+    word-spacing: 15px;
+}
+
+.fa {
+    background-color: white;
+    color: rgb(87, 139, 9);
+}
+
+.padding-footer {
+    padding-left: 160px;
+}
+
+.footer {
+    display: inline-flex;
+}
+
+.flast {
+    padding: 8px 170px;
 }
