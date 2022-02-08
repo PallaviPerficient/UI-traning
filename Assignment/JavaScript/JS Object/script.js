@@ -1,14 +1,14 @@
 var employee = {
-  name: "Mr. Ram Shrirao",
-  emailID: "ramshrirao122gmail.com",
-  phoneNo: 8805725908,
-  age: 21,
-  destination: "Intern Consulting (UI)",
+  name: "Pallavi kanfade",
+  emailID: "pallavikanfade10@gmail.com",
+  phoneNo: 123456789,
+  age: 22,
+  destination: "Intern Consulting ",
   address: {
-    houseNo: 203/2,
-    streetName: "Police Qtr",
-    areaName: "Raghuji Nagar",
-    cityName: "Nagpur",
+    houseNo: 87,
+    streetName: "Bhagat lay out ",
+    areaName: "Behind Datta Mandir Ward no:8",
+    cityName: "Saoner",
     countryName: "India",
   },
 };
