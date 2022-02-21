@@ -14,20 +14,20 @@
     <div class="container">
         <h3>Registration Form :</h3>
         <form class="form" id="Reg-form" onsubmit="return false;">
-            <label for="fname">First name: </label>
-            <input type="text" id="fname" name="fname" placeholder="Enter your first name">
+            <label for="fname">First name: <span class="required">*</span></label>
+            <input type="text" id="fname" name="fname" placeholder="Enter your first name" required>
             <br>
             <br>
-            <label for="lname">Last name: </label>
-            <input type="text" id="lname" name="lname" placeholder="Enter your last name">
+            <label for="lname">Last name: <span class="required">*</span></label>
+            <input type="text" id="lname" name="lname" placeholder="Enter your last name" required>
             <br>
             <br>
-            <label for="email">Email ID: </label>
-            <input class="input1" type="email" id="email" name="email" placeholder="Enter your email id">
+            <label for="email">Email ID: <span class="required">*</span></label>
+            <input class="input1" type="email" id="email" name="email" placeholder="Enter your email id" required>
             <br>
             <br>
-            <label for="age">Age: </label>
-            <input class="input2" type="number" id="age" name="age" placeholder="Enter your age">
+            <label for="age">Age: <span class="required">*</span></label>
+            <input class="input2" type="number" id="age" name="age" placeholder="Enter your age" required>
             <br>
             <br>
             <input type="submit" value="Submit" />

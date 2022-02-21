@@ -12,13 +12,10 @@ var employee = {
     countryName: "India",
   },
 };
-console.log(employee);
-
-console.log("Employee Name: " + employee.name);
-console.log("Employee Email Id: " + employee.emailID);
-console.log(employee.address);
 
 
-console.log("Employee Name: " + employee["name"])
-console.log("Employee Email Id: " + employee["emailID"])
-console.log(employee["address"])
+document.getElementById("employee").innerHTML = "My name is " + " " +employee.name + " you can reach out to me at" + " " + employee.emailID+
+" . " + "I am " + employee.designation + " at Perficient." + "My contact no is"+
+employee.phoneNo + " and I live at " + employee.address.houseNo + " , " + employee.address.streetName + " , " + employee.address.areaName +
+" , " + employee.address.cityName + " , " + employee.address.countryName +" .";
+
