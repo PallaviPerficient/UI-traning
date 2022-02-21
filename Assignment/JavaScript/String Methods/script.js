@@ -1,22 +1,28 @@
-document.getElementById("Reg-form").addEventListener("submit", stringMethods);
-function stringMethods() {
-  var firstName = document.getElementById("fname").value;
-  var lastName = document.getElementById("lname").value;
-  var emailID = document.getElementById("email").value;
-  var age = parseInt(document.getElementById("age").value);
-  var personType;
-  var fullName =
-    firstName.charAt(0).toUpperCase() +
-    firstName.slice(1) +
-    " " +
-    lastName.charAt(0).toUpperCase() +
-    lastName.slice(1);
-  if (age <= 10) {
-    personType = "Kid";
-  } else {
-    personType = "Genuins"
-  }
-  document.querySelector("table").innerHTML =
-    "<tr><th>Full Name</th><th>Email ID</th><th>Age</th><th>Person Type</th></tr><tr><td>" +
-    fullName + "</td><td>" + emailID + "</td><td>" + age + "</td><td>" + personType + "</td></tr>";
-}
+var form1 = document.querySelector("#form");
+var result = document.querySelector(".result");
+var resultFname = document.querySelector("#result-fname");
+var resultLname = document.querySelector("#result-lname");
+var resultEmail = document.querySelector("#result-email");
+
+form1.addEventListener("submit",function(e){
+    e.preventDefault();
+    var resultAge = document.querySelector("#age-res");
+    
+    var fname = e.target.fname.value;
+    var lname = e.target.lname.value;
+    var email = e.target.email.value;
+    var age = e.target.age.value;
+    age = parseInt(age);
+
+    result.style.display = "block";
+
+    resultFname.innerHTML = fname[0].toUpperCase() + fname.slice(1);
+    resultLname.innerHTML = lname[0].toUpperCase() + lname.slice(1);
+    resultEmail.innerHTML = email;
+
+    if(age > 10){
+        resultAge.innerHTML = "You are a person";
+    }else{
+        resultAge.innerHTML = "You are a Kid";
+    }
+});
