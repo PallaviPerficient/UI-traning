@@ -1,6 +1,5 @@
 document.getElementById("Reg-form").addEventListener("submit", stringMethods);
 function stringMethods() {
-  debugger;
   var firstName = document.getElementById("fname").value;
   var lastName = document.getElementById("lname").value;
   var emailID = document.getElementById("email").value;
