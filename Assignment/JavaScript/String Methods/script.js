@@ -1,12 +1,12 @@
 var form1 = document.querySelector("#form");
 var result = document.querySelector(".result");
-var resultFname = document.querySelector("#result-fname");
-var resultLname = document.querySelector("#result-lname");
-var resultEmail = document.querySelector("#result-email");
+var resultFname = document.querySelector("#fname");
+var resultLname = document.querySelector("#lname");
+var resultEmail = document.querySelector("#email");
 
 form1.addEventListener("submit",function(e){
     e.preventDefault();
-    var resultAge = document.querySelector("#age-res");
+    var resultAge = document.querySelector("#age");
     
     var fname = e.target.fname.value;
     var lname = e.target.lname.value;
@@ -14,7 +14,7 @@ form1.addEventListener("submit",function(e){
     var age = e.target.age.value;
     age = parseInt(age);
 
-    result.style.display = "block";
+    // result.style.display = "block";
 
     resultFname.innerHTML = fname[0].toUpperCase() + fname.slice(1);
     resultLname.innerHTML = lname[0].toUpperCase() + lname.slice(1);
