@@ -47,7 +47,7 @@ const Edit = () => {
     async function onFormSubmit(e) {
         e.preventDefault()
         try {
-            await axios.put(`http://localhost:3004/student/${id}`, student)
+            await axios.put(`http://localhost:3001/student/${id}`, student)
             history("/")
         } catch (error) {
             console.log("Something is Wrong");

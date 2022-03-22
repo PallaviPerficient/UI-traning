@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Promise</h2>
+<script>
+    const myPromise = new Promise(function(myResolve, myReject) {
+      setTimeout(function(){ myResolve("Good Morning!!"); }, 3000);
+    });
+
+    myPromise.then(function(value) {
+     console.log("hello");
+    });
+</script>
+
+</body>
+</html>

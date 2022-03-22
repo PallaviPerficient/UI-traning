@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+Name: <input type="text" id="fname" >
+<button onclick="checkName()">Check Name</button>
+<p id="demo">OP:</p>
+
+<script>
+    function checkName() {
+        var firstName = document.getElementById("fname").value;
+        var result = (firstName === "Pallavi")||
+        (firstName === "Prajwal") ||
+        (firstName === "Jaishree")||
+        (firstName === "Sahil") ||
+        (firstName === "Shoa")||
+        (firstName === "Shraddha")||
+        (firstName === "Muskan")||
+        (firstName === "VM")
+         ? "Hello Good Morning!" 
+         :(firstName===firstName)
+         ?"gm"
+         :"Not Available";
+
+
+        document.getElementById("demo").innerHTML = result;
+        }
+</script>
+
+</body>
+</html>
