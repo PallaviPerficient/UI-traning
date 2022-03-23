@@ -1,23 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import React ,{useState ,useEffect} from 'react'
+
 
 function App() {
+  const[update ,Setupdate]= useState(0);
+
+  useEffect(() =>{
+    console.log("UseEffect");
+  },[update]) /// [update]= jab update state ke update pr useEffect call hoga.it also call condition 
+  // And we can use multiple  useEFFect in our same component like one useEffect for one state another useeffect for 
+  // another state.
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Count :{update}</h1>
+      <button onClick={() => Setupdate(update+1)}> Counter</button>
+      {/* jitne bar mai state update krungi  unte br useEffect call hoga */}
     </div>
   );
 }
