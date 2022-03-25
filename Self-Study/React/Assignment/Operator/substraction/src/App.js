@@ -6,6 +6,7 @@ function App(props) {
   const [count2,Setcount2]=useState()
   return (
     <div>
+      <h1>Substraction</h1>
       <label>First Number :</label>
       <input onChange={(e) => Setcount(e.target.value)} value={count} type="number" ></input>
       <br></br>
