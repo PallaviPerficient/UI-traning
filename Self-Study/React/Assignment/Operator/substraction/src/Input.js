@@ -10,9 +10,9 @@ function Input(props){
     };
     return(
         <>
-        <button onClick={()=> substraction(props.value1 , props.values2)}> Result</button>
-        <br></br>
-        <p>Result is :{value}</p>
+            <button onClick={()=> substraction(props.value1 , props.values2)}> Result</button>
+            <br></br>
+            <p>Result is :{value}</p>
         </>
     )
 }
