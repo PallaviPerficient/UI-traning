@@ -33,6 +33,7 @@ console.log("Deposite");
      <div className="container">
         <div className="row">
         <div className="form-row row">
+          <h1> Deposit </h1>
           <div className="col">
             <input type="Number" onChange={handleChange} value={formInputData.Check_Number} name="Check_Number" placeholder=" Check Number" />
           </div>

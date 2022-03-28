@@ -7,6 +7,7 @@ function Table({tableData}){
                     <th>Sr.No</th>
                     <th>Check Number</th>
                     <th> Amount</th>
+                    <th>Type</th>
                     
                 </tr>
             </thead>

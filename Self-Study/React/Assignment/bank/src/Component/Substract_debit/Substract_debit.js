@@ -30,6 +30,7 @@ function Substract_debit() {
      <>
      <div className="container">
         <div className="row">
+          <h1> Debit </h1>
         <div className="form-row row">
           <div className="col">
             <input type="Number" onChange={handleChange} value={formInputData.Check_Number} name="Check_Number" placeholder=" Check Number" />
