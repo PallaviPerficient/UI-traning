@@ -16,4 +16,4 @@ const Api = () =>{
     }   
 }
     
-export default Api
+export default Api;

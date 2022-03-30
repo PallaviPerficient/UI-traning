@@ -1,0 +1,20 @@
+@import "../Component/sass/_variable.scss";
+
+//nesting
+table{
+    width: 100%;
+    border-collapse: collapse;
+    
+    th, td {
+        border: $border-width solid  $color-white;
+        text-align: $align-center;
+    }
+    th {
+        background-color:$table-background;
+      }
+     
+
+    tr:nth-child(even) {
+        background-color: rgb(213, 218, 213);
+    }
+}

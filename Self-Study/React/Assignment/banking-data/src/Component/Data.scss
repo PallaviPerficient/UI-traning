@@ -1,0 +1,70 @@
+@import "../Component/sass/variable";
+
+.Submit-button {
+  background-color: $bg-color;
+  text-align: $align-center;
+  margin: 12px 140px;
+}
+
+.Check, .Amount {
+  padding: 10px 5px;
+}
+
+
+// .Credit{
+//     font-size: 20px;
+//     font-weight: bold;
+//     display: $display-flex;
+//     padding: 10px 86px;
+// }
+// .Debit{
+//     font-size: 20px;
+//     font-weight: bold;
+//     display: $display-flex;
+//     padding: 10px 75px;
+
+
+// }
+
+// .Credit-block{
+//     width: 370px;
+//     border: 2px solid green;
+//     margin-left:246px;
+//     padding: 50px;
+//     padding: 35px;
+
+// }
+
+// .Debit-block{
+//     width: 340px;
+//     /* padding: 35px; */
+//     border: 2px solid red;
+//     margin-left:209px;
+//     padding: 35px;
+
+//     /* display :inline-block; */
+// }
+// .block{
+//     display: $display-flex;
+// }
+// h1{
+//     background-color: black;
+//     color: $red-color;
+//     margin-top: 0;
+//     text-align:$align-center;
+
+// }
+// .Table-heading{
+//     text-align: $align-center;
+//     font-size: 36px;
+//     padding: 20px 15px;
+//     font-weight: bold;
+// }
+
+// .balance{
+//     margin-left: 700px;
+//     padding: 15px;
+//     font-size: 20px;
+//     font-weight: bold;
+// }
+

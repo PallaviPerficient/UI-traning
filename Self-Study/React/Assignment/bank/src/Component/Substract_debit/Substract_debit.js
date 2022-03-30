@@ -42,7 +42,8 @@ function Substract_debit() {
             <input type="submit" onClick={handleSubmit} className="btn btn-primary" />
           </div>
         </div>
-        <Table tableData={tableData}/>
+        <Table tableData={tableData} />
+        
         </div>
         </div>
      </>
