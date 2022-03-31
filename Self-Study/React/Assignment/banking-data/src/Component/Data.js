@@ -8,10 +8,10 @@ const Data = (props) =>{
         <>
            <div>
 
-                <label className='Check'>Check Number : </label>
+                <label className='check'>Check Number : </label>
                 <input type="number" name="check_number" onChange={(event) => props?.handlechange(event,props.type)} value={props?.data.check_number} placeholder="Check Number"></input><br></br>
                 
-                <label className='Amount'>Amount : </label>
+                <label className='amount'>Amount : </label>
                 <input type="number" name="amount" onChange={(event) => props?.handlechange(event,props.type)} value={props?.data.amount} placeholder="Amount"></input><br></br>
            
             </div>

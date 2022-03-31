@@ -13,20 +13,18 @@
     padding: 10px 75px;
 }
 
-.Credit-block{
+.creditBlock{ ///hype both letter small,,,,,,
     width: $width-370;
     border: $border-width solid $color-green;
     margin-left:200px + 46px; //operator
-    // padding: 50px;
     padding:35px;
 }
 
-.Debit-block{
+.debitBlock{
     width: $width-340;
     padding: 35px;
     border: $border-width solid $red-color;
     margin-left:200px + 9px;//operator
-    /* display :inline-block; */
 }
 .block{
     display: $display-flex;
@@ -38,7 +36,7 @@ h1{
     text-align:$align-center;
 }
 
-.Table-heading{
+.tableHeading{
     text-align: $align-center;
     font-size: 30px + 6px;//operator
     padding: 20px 15px;
@@ -53,7 +51,11 @@ h1{
 }
 
 .balance_amount{
-    border: red 1px solid;
+    border: rgb(38, 0, 255) 1px solid;
     padding: 5px;
+
+}
+.balance_amount_red{
+    border: rgb(255, 0, 0) 1px solid;
 
 }
