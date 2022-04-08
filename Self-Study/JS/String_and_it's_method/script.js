@@ -51,3 +51,14 @@ document.getElementById('charcodeat').innerHTML=charcodeAt.charCodeAt(4);
 let split = "a,b,c,d,e,f";
 const myArray = split.split(",");
 document.getElementById("split").innerHTML = myArray[0];
+
+
+///indexOf
+
+//lastindexOf
+
+//includes
+
+//startsWith
+
+//endsWith

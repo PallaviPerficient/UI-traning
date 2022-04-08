@@ -16,12 +16,6 @@ const Home = (props) => {
         // alert(`Submitting Name ${name} ${lastname}`);
         navigate('/about');
         console.log(1);
-      // About(
-      //   {
-      //     name :name
-      //   }
-      // )
-        
     }
 return (
     <div>
