@@ -1,0 +1,33 @@
+.box-credit{
+    display: inline-block;
+    padding: 20px;
+    margin-left: 50px;
+    border: 3px green solid;
+    margin-top: 20px;
+    
+}
+.box-debit{
+    display: inline-block;
+    padding: 20px;
+    border: 3px red solid;
+    margin-top: 20px;
+    margin-left: 350px;
+}
+input {
+    margin-left: 120px;
+}
+.amt-input{
+    margin-left: 167px;
+}
+button{
+    
+    margin: 10px;
+    padding: 10px;
+}
+.right-bal{
+    margin-left:1100px;
+    padding: 10px;
+}
+.leftmargin{
+    margin-left: 150px;
+}
