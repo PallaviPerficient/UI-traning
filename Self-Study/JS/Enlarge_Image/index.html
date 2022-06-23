@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <div class="fmc-inbody">
+            <div class="fmc-seemore-image">
+                <img class="fmc-inbody-image" src="https://dummyimage.com/600x400/000/fff"/>
+                <div>See More</div>
+            </div>
+          <span  id="click-to-enlarge" class="fmc-click-enlarge-image">Click To Enlarge</span>
+        </div>
+        <div class="fmc-dialog fds-align--center" role="dialog" aria-modal="true" aria-label="Lorem Ipsum Dolor">
+          <div class="fmc-dialog__content">
+            <button class="fmc-dialog__close fds-icon fds-font--ford-icons__clear" alt="A close button."></button>
+            <img  src="https://dummyimage.com/600x400/000/fff" alt="a placeholder" />
+            <h4 class="fmc-type--subtitle1"> Donec lobortis scelerisque purus id euismod</h4>
+          </div>
+        </div>
+    </div>
+</body>
+<script>
+document.querySelectorAll(".fmc-dialog__close").forEach((td) => td.addEventListener("click", closeModal));
+document.querySelectorAll(".fmc-click-enlarge-image").forEach((td) => td.addEventListener("click", openModal));
+function closeModal() {
+  document.querySelector(".fmc-dialog").classList.remove("fmc-dialog--opened");
+}
+function openModal() {
+  document.querySelector(".fmc-dialog").classList.add("fmc-dialog--opened");
+}
+let outerDialog = document.querySelectorAll(".fmc-dialog");
+let innerDialog = document.querySelectorAll(".fmc-dialog__content"); 
+outerDialog.forEach((outerDialoges) => { 
+  outerDialoges.addEventListener("click", function () { 
+    innerDialog.forEach((event) => { 
+      closeModal();
+      }); 
+    }); 
+});
+   
+</script>
+</html>

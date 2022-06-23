@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <button onclick="voice()">Speak</button> -->
+    <img onmouseover="voice()"  src="https://perficient.sharepoint.com/_api/v2.1/sites/perficient.sharepoint.com,3ad4917c-a762-4147-bcb3-6cbf395d8a68,1437e15e-8aa7-40e9-9d2c-46bf3bdd3108/items/e7a063b9-9ad8-43ec-a059-3267f1d47044/driveItem/thumbnails/0/c400x99999/content?preferNoRedirect=true" alt="Smiley" width="32" height="32">
+</body>
+<script>
+    function voice(){
+    window.speechSynthesis.speak(new SpeechSynthesisUtterance("Image Text"));
+    }
+</script>
+</html>
