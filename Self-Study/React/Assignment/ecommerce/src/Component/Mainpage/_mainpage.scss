@@ -1,0 +1,24 @@
+.mainpage{
+    display: flex;
+    /* margin: 20px; */
+    border: 1px solid transparent;
+    height: 39px;
+    width: 100%;
+    background-color: gainsboro;
+    &_nav{
+        display: flex;
+        padding-top: 10px;
+    }
+    &_heading{
+        font-size: 40px;
+        text-align: center;
+        justify-content: center;
+        margin-left: 268px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        line-height: 24px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: rgb(26, 66, 26);
+        padding-top: 5px;
+    }
+}

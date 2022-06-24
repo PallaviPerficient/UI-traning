@@ -1,0 +1,43 @@
+.button{
+    display: flex;
+    margin-left: 329px;
+}
+.login{
+    margin: 0 10px;
+    &_button{
+        border: 1px solid #009;
+        border-radius: 8px;
+        font-size: 14px;
+        height: 39px;
+        width: 100px;
+        background-color: transparent;
+        color: #009;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+}
+.cart{
+    margin: 0 10px;
+    &_button{
+        border: 1px solid #009;
+        border-radius: 8px;
+        font-size: 14px;
+        height: 39px;
+        width: 100px;
+        background-color: transparent;
+        color: #009;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+}
+.register{
+    margin: 0 10px;
+    &_button{
+        border: 1px solid #009;
+        border-radius: 8px;
+        font-size: 14px;
+        height: 39px;
+        width: 100px;
+        background-color: transparent;
+        color: #009;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+}
