@@ -1,0 +1,19 @@
+.Card{
+    height: 100%;
+    border:1px solid rgb(78, 78, 78);
+    box-shadow: 5px 10px #888888;
+
+}
+h3,h4{
+    padding:0 10px;    
+}
+.column{
+    float: left;
+    width: 15%;
+    padding: 10px 10px;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
