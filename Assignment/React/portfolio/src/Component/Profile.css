@@ -1,0 +1,22 @@
+.profile{
+    color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 70%;
+    float: right;
+    text-align: center;
+    margin: 60px;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+}
+.display-none{
+    display: none;
+}
+.profile li{
+    list-style-type: none;
+    padding: 5px;
+    margin: auto;
+}
+.details{
+    position: absolute;
+}

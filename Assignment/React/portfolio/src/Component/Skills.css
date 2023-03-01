@@ -1,0 +1,16 @@
+.skills{
+    color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 70%;
+    float: right;
+    text-align: center;
+    margin: 60px;
+}
+.display-none{
+    display: none;
+}
+.skills li{
+    list-style-type: none;
+    padding: 5px;
+    margin: auto;
+}
