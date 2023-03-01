@@ -1,0 +1,31 @@
+.pk img{
+    width: 14%;
+    float: right;
+    border-radius: 42%;
+    border: 4px solid white;
+    cursor: pointer;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    margin: 0 auto;
+}
+.email{
+    color: aliceblue;
+    position: absolute;
+    top: 59%;
+    left: 48%;
+    margin: 0 auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.contact{
+    color: aliceblue;
+    position: absolute;
+    top: 64%;
+    left: 51%;
+    margin: 0 auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.display-none{
+    display: none;
+}

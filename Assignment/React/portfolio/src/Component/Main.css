@@ -1,0 +1,57 @@
+body{
+    overflow: hidden;
+    background-image: url("../Images/BG-6.jpg");
+}
+.main_bgimage{
+    max-width: 100%;
+    height: auto;
+}
+.container_topname{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    color: rgb(129, 126, 121);
+    font-size: 20px;
+    transform: translate(-40%, -40%);
+    font-weight: 500;
+}
+.container_name{
+    position: absolute;
+    top: 37%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 34px;
+}
+.container_bio{
+    position: absolute;
+    top: 44%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+    color: rgb(209 197 197);
+    font-size: 18px;
+    font-weight: 500;
+}
+.logo li img{
+    width: 20px;
+    height: 20px;
+    position: relative;
+}
+.logo ul{
+    display: inline-flex;
+}
+.logo li{
+    padding: 10px 15px;
+}
+.logo{
+    position: absolute;
+    top: 60%;
+    left: 51%;
+    transform: translate(-50%, -50%);
+}
+.down img{
+    position: absolute;
+    top: 87%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+}
