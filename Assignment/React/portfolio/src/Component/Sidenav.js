@@ -83,7 +83,7 @@ const Sidenav = () => {
         <ul>
           <li onClick={aboutpage}>About</li>
           <li onClick={skillpage}>Skills</li>
-          <li onClick={projectpage}>Project</li>
+          <li onClick={projectpage}>Projects</li>
           <li onClick={educationPage}>Education</li>
           <li onClick={achivementPage}>Achievements</li>
           <li onClick={profile}>Personal Profile</li>

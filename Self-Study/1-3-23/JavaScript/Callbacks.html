@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Callbacks</title>
+</head>
+<body style="background-color: beige;">
+    <h2 style="text-align: center;">CallBack</h2>
+    <div id="callback"></div>
+</body>
+<script>
+    function Output(value){
+        document.getElementById('callback').innerHTML = "Callback Output : "+value;
+    }
+    function first(){
+        Output("first hiii");
+    }
+    function Second(){
+        Output("Second Hiii");
+    }
+    first();
+    Second();
+    //last wale function ka output phele show hoga
+</script>
+</html>
