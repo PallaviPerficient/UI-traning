@@ -6,19 +6,18 @@ import com.adobe.cq.export.json.ComponentExporter;
 import com.adobe.cq.export.json.ExporterConstants;
 import org.apache.sling.api.SlingHttpServletRequest;
 
-import com.adobe.aem.guides.wknd.spa.react.core.models.CustomTitle;
+import com.adobe.aem.guides.wknd.spa.react.core.models.TextImage;
 
-@Model(adaptables = SlingHttpServletRequest.class, adapters = { CustomTitle.class,
-    ComponentExporter.class }, resourceType = CustomTitleImpl.RESOURCE_TYPE, defaultInjectionStrategy = DefaultInjectionStrategy.OPTIONAL)
+@Model(adaptables = SlingHttpServletRequest.class, adapters = { TextImage.class,
+    ComponentExporter.class }, resourceType = TextImageImpl.RESOURCE_TYPE, defaultInjectionStrategy = DefaultInjectionStrategy.OPTIONAL)
 @Exporter(name = ExporterConstants.SLING_MODEL_EXPORTER_NAME, extensions = ExporterConstants.SLING_MODEL_EXTENSION)
-public class CustomTitleImpl implements CustomTitle {
+public class TextImageImpl implements TextImage {
 
     @ValueMapValue
     private String textTitle;
     private String text;
 
-    static final String RESOURCE_TYPE = "wknd-spa-react/components/custom-title";
-
+    static final String RESOURCE_TYPE = "wknd-spa-react/components/textImage";
     @Override 
     public String getTextTitle(){
         return textTitle;
