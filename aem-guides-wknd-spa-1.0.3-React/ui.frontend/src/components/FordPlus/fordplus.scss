@@ -1,0 +1,20 @@
+.fordplus{
+    position: relative;
+    &_backgroundimage{
+        width: 100%;
+        height: 300px;
+    }
+    &_topimage{
+        position: absolute;
+        top: 29px;
+        left: 26px;
+        width: 259px;
+        height: 250px;
+    }
+    &_text{
+        position: absolute;
+        top:29px;
+        right: 32px;    
+        width: 50%;    
+    }
+}
