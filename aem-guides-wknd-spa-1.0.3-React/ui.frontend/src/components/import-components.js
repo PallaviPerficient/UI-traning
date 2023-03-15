@@ -21,4 +21,5 @@ import './Navigation/Navigation';
 import './Header/Header';
 import './Custom/Custom';
 import './Card/Card';
-import './CustomTitle/CustomTitle'
+import './FordPlus/FordPlus';
+import './TextImage/TextImage';
