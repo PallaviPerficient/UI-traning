@@ -23,3 +23,4 @@ import './Custom/Custom';
 import './Card/Card';
 import './FordPlus/FordPlus';
 import './TextImage/TextImage';
+import './Announcement/Announcement';
