@@ -10,7 +10,6 @@ const FordPlusEditConfig = {
 };
 
 const FordPlus = (props) => {
-    console.log("Ford Plus",props);
   return (
     <>
       <div className='fordplus'>

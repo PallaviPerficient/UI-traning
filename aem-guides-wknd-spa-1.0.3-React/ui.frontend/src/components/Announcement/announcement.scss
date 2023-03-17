@@ -1,0 +1,25 @@
+.announcement{
+    width: 100%;
+    margin:24px 0;
+    &_img{
+        width: 50% !important;
+    }
+    &_title{
+        font-size: 24px;
+        color: #00095B;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        margin-bottom: 10px;
+    }
+    &_description{
+        font-size: 16px;
+        margin-bottom: 20px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .slick-dots{
+        width: 50%;
+    }
+    .slick-dots li button:before {
+        font-family: "slick";
+        font-size: 13px;
+    }
+}
