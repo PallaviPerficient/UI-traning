@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Closure</title>
+</head>
+<body style="background-color: beige;">
+    <h2 style="text-align: center;">Closure</h2>
+    <div id="closure"></div>
+    <div id="closure2"></div>
+
+</body>
+<script>
+function outer(){
+    var b=1;
+    function inner(){
+        return b;
+    }
+    return inner;
+}
+var Result = outer();
+document.getElementById("closure").innerHTML = "Value of B : "+ Result();
+console.log("Value of B",Result());
+
+function multiply(){
+    var b=9;
+    return function(val){
+        b=b*val;
+        return b;
+    }
+}
+var ResultMultiply = multiply();
+document.getElementById("closure2").innerHTML = "Multiplication Value : "+ ResultMultiply(4);
+
+</script>
+</html>

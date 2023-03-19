@@ -1,0 +1,55 @@
+
+<ion-content>
+  <h3 class="title"></h3>
+
+
+<ion-list lines="none" *ngIf="(cartItems|async)?.length !=0"> 
+<div class="cart-item"  *ngFor="let item of cartItems|async">
+  <!-- <h1>{{item}}</h1> -->
+<div class="image">
+  <ion-img [src]="item.image"></ion-img>
+</div>
+
+<div class="description">
+  <h3>{{item.name}}</h3>
+  <p><sup>₹</sup>{{item.price}}</p>
+</div>
+
+
+
+
+<div class="actions">
+<ion-buttons slot="start">
+<ion-button (click)="increase(item)">
+  <ion-icon slot="icon-only" name="add"></ion-icon>
+ 
+</ion-button>
+</ion-buttons>
+<div class="counter">{{item.quantity}}</div>
+<ion-buttons slot="start">
+  <ion-button (click)="decrease(item)">
+    <ion-icon slot="icon-only" name="remove"></ion-icon>
+  
+  </ion-button>
+  </ion-buttons>
+</div>
+</div>
+
+<div class="orderbtn">
+  <ion-button style="--background: #515151;" expand="block"  shape="round">
+    Total: <span>₹<sup>{{totalAmount|async|number: '1.2'}}</sup></span>
+  </ion-button>
+</div>
+</ion-list>
+<!----EMPTY CART-->
+
+<div class="empty-cart" *ngIf="(cartItems|async)?.length ===0">
+  <ion-icon name="d-cart"></ion-icon>
+  <p>Your cart is empty</p>
+</div>
+
+
+<!-- CHECKOUT BUTTON-->
+
+
+</ion-content>

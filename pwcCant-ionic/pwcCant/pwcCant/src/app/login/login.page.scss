@@ -1,0 +1,76 @@
+ion-content{
+  --padding-start: 2rem;
+  --padding-end: 2rem;
+  // border: 1px solid red;
+  background: #ffecd2;
+}
+
+.header{
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+.login{
+  h2{
+    font-family: "PwC ITC Charter",Georgia,Serif;
+    margin: 18px 0;
+    font-size: 24px;
+    color: hsl(0, 0%, 32%);
+  }
+  h1{
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: "PwC ITC Charter",Georgia,Serif;
+    color: hsl(0, 0%, 32%);
+    margin: 20px 0;
+    background: -webkit-linear-gradient(rgb(7, 1, 8), rgb(177, 168, 168));
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  }
+}
+
+.loginpage{
+    text-align: center;
+    width: 70%;
+    height: 50%;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  
+    .EmployeeID{
+      font-family: "PwC ITC Charter",Georgia,Serif;
+      color: hsl(0, 0%, 32%);
+    } ::placeholder {
+      color: red;
+    }
+    .login_button{
+      margin: 20px 0;
+      font-family: "PwC ITC Charter",Georgia,Serif;
+      background-image: linear-gradient(red, yellow);
+      background-color: red;
+      border: 1px solid red;
+      border-radius: 12px;
+      height: 37px;
+      padding: 8px;
+      color: #07234b;
+      font-weight: bold;
+      cursor: pointer;
+    }
+  
+}
+#background-content{
+  background: none !important;
+}
+ion-input{
+  --placeholder-color: rgb(179, 160, 160);
+  --placeholder-opacity: 1;
+  font-family: "PwC ITC Charter",Georgia,Serif;
+}
+ion-item {
+  width: auto;
+  margin:20px 20px;
+}

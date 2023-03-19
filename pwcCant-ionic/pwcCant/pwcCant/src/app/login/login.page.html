@@ -1,0 +1,13 @@
+<ion-content>
+  <div class="loginpage">
+    <div class="login">
+      <h2>login</h2>
+      <h1>PwC Canteen</h1>
+    </div>
+    <ion-item fill="outline">
+        <ion-label position="floating" class="EmployeeID">Employee ID :</ion-label>
+        <ion-input placeholder="Enter EmployeeID" [(ngModel)]="EmployeeID"></ion-input>
+    </ion-item>
+    <button class="login_button" (click)="login()">Go for Order</button>
+  </div>
+</ion-content>

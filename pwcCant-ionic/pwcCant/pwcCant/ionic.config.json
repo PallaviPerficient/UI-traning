@@ -1,0 +1,10 @@
+{
+  "name": "pwcCant",
+  "integrations": {
+    "capacitor": {
+      "enabled": false
+    },
+    "cordova": {}
+  },
+  "type": "angular"
+}
