@@ -1,8 +1,9 @@
-import React from 'react'
+import React from 'react';
+import './Product.css'
 
 const Product = () => {
   return (
-    <div>Product</div>
+    <div>Product Page</div>
   )
 }
 
