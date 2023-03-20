@@ -8,3 +8,4 @@ public interface TextImage extends ComponentExporter  {
     public String getImage();
     
 }
+//component exporter::Convert data into JSON

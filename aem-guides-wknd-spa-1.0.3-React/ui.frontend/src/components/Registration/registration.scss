@@ -1,0 +1,65 @@
+.Registration{
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    font-family: "FordAntenna";
+    padding: 20px;
+    margin-bottom: 20px;
+    &_heading{
+        font-size: 24px;
+        color: #00095B;
+        font-weight: 500;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    &_field{
+        text-align: center;
+        font-size: 18px;
+        font-weight: 500;
+        color: black;
+        padding: 5px;
+        font-family: "FordAntenna";
+        button{
+            background-color: #09690c;
+            border: none;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 20px 2px;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+    }
+    
+}
+input {
+  height: 31px;
+  margin: 7px;
+  color: rgb(2, 1, 1);
+  border-radius: 7px;
+  border: 1px solid gray;
+  font-family: "FordAntenna";
+  padding-left: 13px;
+  font-size: 14px;
+}
+
+textarea{
+    height: 31px;
+    margin: 7px;
+    color: rgb(2, 1, 1);
+    vertical-align: middle;
+    border-radius: 7px;
+    border: 1px solid gray;
+    font-family: "FordAntenna";
+    padding-left: 13px;
+    font-size: 14px;
+
+}
+
+img{
+    width: 100%;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    margin-top: 20px;
+
+}
