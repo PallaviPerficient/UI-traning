@@ -5,6 +5,14 @@ import org.apache.sling.models.annotations.injectorspecific.ValueMapValue;
 import com.adobe.aem.guides.wknd.spa.react.core.models.Registration;
 import com.adobe.cq.export.json.ComponentExporter;
 import com.adobe.cq.export.json.ExporterConstants;
+import com.google.common.base.Objects;
+
+import java.sql.Date;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+
+import javax.annotation.PostConstruct;
+
 import org.apache.sling.api.SlingHttpServletRequest;
 
 
@@ -16,8 +24,17 @@ public class RegistrationImpl implements Registration {
 
     @ValueMapValue private String firstname;
     @ValueMapValue private String lastname;
-    @ValueMapValue private String dob;
+    @ValueMapValue private Date dob;
     @ValueMapValue private String suggestion;
+    private String format;
+
+    @PostConstruct
+    public void init(){
+            DateFormat dateFormat=new SimpleDateFormat("dd/MM/yyyy");
+            format=dateFormat.format(dob);
+            System.out.println(format);
+        }
+       
 
     @Override
     public String getFirstName(){
@@ -30,8 +47,8 @@ public class RegistrationImpl implements Registration {
     }
 
     @Override
-    public String getDOB(){
-        return dob;
+    public String  getDOB(){
+        return format;
     }
 
     @Override
