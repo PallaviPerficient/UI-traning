@@ -1,0 +1,19 @@
+.Interview{
+    width: 80%;
+    border: 2px solid #02485c;
+    margin: 0 auto;
+    background: #d4e0e1;
+    &_heading{
+        text-align: center;
+        font-weight: 500;
+        font-size: 29px;
+        text-transform: uppercase;
+        padding: 15px 0;
+    }
+    &_field{
+        display: flex;
+        width: 100%;
+        text-align: center;
+        margin: 24px;
+    }
+}
