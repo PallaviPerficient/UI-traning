@@ -1,0 +1,48 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    padding: 10px 20px;
+  }
+  
+  td, th {
+    border: 1px solid #1d1717;
+    padding: 8px;
+  }
+.datatable{
+    padding: 10px 20px;
+    input{
+        border: 1px solid #807c7c;
+    }
+    img{
+        height: 20px;
+        margin: 0 auto;
+        display: block;
+    }
+    &_addrow{
+        border: 1px solid rgb(24, 22, 22);
+        width: 88px;
+        float: right;
+        margin: 13px 0;
+        padding: 2px;
+    }
+    .skills{
+        font-weight: 100;
+        text-align: initial;
+        width: 150px;
+        margin: 0 auto;
+    }
+    .rating{
+        font-weight: 100;
+        width: 130px;
+        margin: 0 auto;
+    }
+    .myrating{
+        font-weight: 100;
+        width: 130px;
+        margin: 0 auto;
+    }
+    .comment{
+        height: 45px;
+    }
+}
