@@ -26,3 +26,4 @@ import './TextImage/TextImage';
 import './Announcement/Announcement';
 import './Registration/Registration';
 import './TodaysHightlight/TodaysHighlight';
+import './MultiField/MultiField'

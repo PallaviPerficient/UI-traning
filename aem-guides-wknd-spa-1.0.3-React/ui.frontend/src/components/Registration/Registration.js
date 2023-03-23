@@ -9,16 +9,14 @@ const RegistrationConfig = {
   }
 };
 const Registration = (props) => {
-  console.log("props Registration",props);
 
   const submit = () => {
     alert("Registration Completed")
   }
     
-    let today = new Date(props.dob);
-    let date=today.getDate() + "-"+ parseInt(today.getMonth()+1) +"-"+today.getFullYear();
+  let today = new Date(props.dob);
+  let date=today.getDate() + "-"+ parseInt(today.getMonth()+1) +"-"+today.getFullYear();
   
-
   return (
     <>
       <img src={props.fileReference} alt="Registration Image"/>
