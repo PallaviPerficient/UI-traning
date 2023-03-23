@@ -10,7 +10,6 @@ const TodaysHighlightEditConfig = {
 };
 
 const TodaysHighlight = (props) => {
-    console.log("highlight Props",props);
   return (
     <>
       <div className='highlight'>

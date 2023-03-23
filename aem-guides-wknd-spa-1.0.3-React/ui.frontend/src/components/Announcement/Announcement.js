@@ -13,7 +13,6 @@ const AnnouncementEditConfig = {
 };
 
 const Announcement = (props) => {
-    console.log("props Announcement",props);
 
     const settings = {
       className: "announcement",
