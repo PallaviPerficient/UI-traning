@@ -3,6 +3,7 @@
     border: 2px solid #02485c;
     margin: 0 auto;
     background: #d4e0e1;
+    position: relative;
     &_heading{
         text-align: center;
         font-weight: 500;
@@ -15,5 +16,12 @@
         width: 100%;
         text-align: center;
         margin: 24px;
+    }
+    &_downloadImage{
+        width: 20px;
+        position: absolute;
+        right: 30px;
+        bottom: 0;
+        top: 80px;
     }
 }

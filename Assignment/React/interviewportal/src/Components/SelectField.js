@@ -2,7 +2,7 @@ import React from 'react';
 import './selectfield.scss';
 import Select from 'react-select';
 
-const selection = [
+  const selection = [
     {
       label: "Select",
       value: "Select",
@@ -61,11 +61,6 @@ const SelectField = () => {
         </div>
         <div className='selectfield_designation'>
         <label>Designation : </label>
-            {/* <select>
-                {designation.map((designation) => (
-                <option value={designation.value}>{designation.label}</option>
-                ))}
-            </select> */}
             <Select
                 options={designation}
                 className={"designation"}
