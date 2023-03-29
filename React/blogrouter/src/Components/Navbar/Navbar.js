@@ -8,13 +8,13 @@ const Navbar = () => {
         <nav>
             <ul>
                 <li>
-                    <NavLink to="/">Home</NavLink>
+                    <NavLink to="/">Tab-One</NavLink>
                 </li>
                 <li>
-                    <NavLink to="/about">About</NavLink>
+                    <NavLink to="/tab-two">Tab-Two</NavLink>
                 </li>
                 <li>
-                    <NavLink to="/product">Products</NavLink>
+                    <NavLink to="/tab-three">Tab-Three</NavLink>
                 </li>
             </ul>
         </nav>
@@ -23,3 +23,4 @@ const Navbar = () => {
 }
 
 export default Navbar
+
