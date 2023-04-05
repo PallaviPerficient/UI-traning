@@ -1,0 +1,13 @@
+{
+  "name": "create-package-json",
+  "version": "1.0.0",
+  "description": "Node.js Guide",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "pallavi":"node server.js"
+  },
+  "author": "Pallavi Kanfade",
+  "license": "ISC"
+}
