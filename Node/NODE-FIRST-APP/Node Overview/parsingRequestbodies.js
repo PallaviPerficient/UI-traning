@@ -37,4 +37,4 @@ const server = http.createServer((req, res) =>{
     res.write('</html>');
 })
 
-server.listen(8000)
+server.listen(8000);
