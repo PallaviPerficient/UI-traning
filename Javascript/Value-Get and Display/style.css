@@ -1,0 +1,49 @@
+.container{
+    width: 500px;
+    min-height: 175px;
+    margin: 0 auto;
+}
+.profileHeader{
+    height: 20px;
+    background-color: white;
+    display: flex;
+    padding: 16px;
+    border-bottom: 1px solid rgb(219, 203, 203);
+}
+.profileText{
+    flex: 1;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+.primaryContent{
+    background-color: #f2f2f2;
+    padding: 16px;
+    border-bottom: 1px solid #00095b;
+}
+.SecondaryContent{
+    background-color: #f2f2f2;
+}
+.info{
+    font-family: sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: grey;
+}
+.value{
+    color: #8b8686;
+}
+.contentId{
+    margin-bottom: 14px;
+}
+.SecondaryContent{
+    color: #00095b;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+.removeId{
+    padding: 8px 16px 0 16px;
+}
+.logout{
+    padding: 0 16px 8px 16px;
+}
