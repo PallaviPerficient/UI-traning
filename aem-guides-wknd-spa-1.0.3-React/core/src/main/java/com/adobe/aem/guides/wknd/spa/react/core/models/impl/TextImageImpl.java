@@ -32,7 +32,6 @@ public class TextImageImpl implements TextImage {
         return image;
     }
 
-    
     @ValueMapValue(name = "fileReference")
     private String image;
 
