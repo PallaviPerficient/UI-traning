@@ -9,3 +9,9 @@ public interface TextImage extends ComponentExporter  {
     
 }
 //component exporter::Convert data into JSON
+
+
+
+
+
+
