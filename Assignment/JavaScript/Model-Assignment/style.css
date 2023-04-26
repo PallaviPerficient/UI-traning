@@ -1,0 +1,96 @@
+.modal {
+  display: none; 
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 50%;
+}
+
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+
+.close{
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#modalbtn{
+  background-color: #81b5e6;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border:1px solid rgb(81, 81, 219);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.submitButton{
+  background-color: #423572;
+  border: none;
+  color: white;
+  padding: 10px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border:1px solid rgb(81, 81, 219);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+form {   
+  border: 3px solid #f1f1f1;   
+}   
+input[type=text], input[type=password] {   
+  margin: 8px 0;  
+  padding: 12px 20px;   
+  border: 2px solid rgb(153, 161, 153);   
+  box-sizing: border-box; 
+}  
+label{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+}
+button:hover {   
+  opacity: 0.7;   
+}   
+.cancelbtn {   
+  width: auto;   
+  padding: 10px 18px;  
+  margin: 10px 5px;  
+}   
+  
+.container {   
+  padding: 25px;   
+  background-color: lightblue;  
+  display: grid;
+}   
+
+.modalHeader{
+  display: flex;
+}
+h2{
+  padding: 0 20px;
+}
