@@ -28,3 +28,4 @@ import './Registration/Registration';
 import './TodaysHightlight/TodaysHighlight';
 import './MultiField/MultiField';
 import './Dropdown/Dropdown';
+import './CollegeManagement/CollegeManagement';

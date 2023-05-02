@@ -1,0 +1,7 @@
+<sly data-sly-use.traditional="com.adobe.aem.guides.wknd.spa.react.core.models.Traditional.java"
+    data-sly-use.placeholderTemplate="core/wcm/components/commons/v1/templates.html"
+    data-sly-call="${placeholderTemplate.placeholder @ isEmpty=true}">
+    <div data-sly-test="${traditional.text}">
+        ${traditional.text}
+    </div>
+</sly>
