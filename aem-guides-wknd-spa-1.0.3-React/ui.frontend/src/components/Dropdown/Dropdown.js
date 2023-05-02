@@ -9,7 +9,6 @@ const DropdownConfig = {
 };
 
 const Dropdown = (props) => {
-    console.log("dorpdown",props);
   return (
     <div>DropDown</div>
   )
