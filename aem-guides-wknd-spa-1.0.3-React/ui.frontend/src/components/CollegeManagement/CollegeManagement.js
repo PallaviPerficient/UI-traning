@@ -1,5 +1,6 @@
 import React from 'react'
 import { MapTo } from '@adobe/aem-react-editable-components';
+import './collegemanagement.css'
 
 const CollegeManagementConfig = {
     empty :'CollegeManagement',
@@ -12,34 +13,30 @@ const CollegeManagementConfig = {
 const CollegeManagement = (props) => {
     console.log("CollegeManagement",props);
   return (
-    <div>
-       <table>
-        <tr>
-          <th><h2>Student Details</h2></th>
-          <th><h2>College Details</h2></th>
-          <th><h2>Course Details</h2></th>
-        </tr>
-        <tr>
-          <td>Name : {props.name}</td>
-          <td>About : {props.about}</td>
-          <td>Address : {props.address}</td>
-          <td>Email : {props.email}</td>
-          <td>Gender : {props.gender}</td>
-          <td>Mobile Number : {props.mobnumber}</td>
-          <td>Date of Birth : {props.dob}</td>
-        </tr>
-        <tr>
-          <td>College Name : {props.collegename}</td>
-          <td>College Number : {props.collegeNumber}</td>
-          <td>College About : {props.collegeabout}</td>
-          <td>College Link : {props.collegelink}</td>
-        </tr>
-        <tr>
-          <td>Course Name : {props.coursename}</td>
-          <td>Course Details : {props.coursedetails}</td>
-          <td>Stream : {props.stream}</td>
-        </tr>
-      </table>
+    <div className='collegeManagement'>
+      <div>
+        <h4>Student Details</h4>
+            <span>Name : {props.name}</span>
+            <span>About : {props.about}</span>
+            <span>Address : {props.address}</span>
+            <span>Email : {props.email}</span>
+            <span>Gender : {props.gender}</span>
+            <span>Mobile Number : {props.mobnumber}</span>
+            <span>Date of Birth : {props.dob}</span>
+      </div>
+      <div>
+        <h4>College Details</h4>
+          <span>College Name : {props.collegename}</span>
+            <span>College Number : {props.collegeNumber}</span>
+            <span>College About : {props.collegeabout}</span>
+            <span>College Link : {props.collegelink}</span>
+      </div>
+      <div>
+        <h4>Course Details</h4>
+          <span>Course Name : {props.coursename}</span>
+            <span>Course Details : {props.coursedetails}</span>
+            <span>Stream : {props.stream}</span>
+      </div>
     </div>
   )
 }
