@@ -7,6 +7,11 @@ import com.adobe.cq.export.json.ExporterConstants;
 import org.apache.sling.api.SlingHttpServletRequest;
 
 import com.adobe.aem.guides.wknd.spa.react.core.models.CollegeManagement;
+import java.sql.Date;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+
+import javax.annotation.PostConstruct;
 
 @Model(adaptables = SlingHttpServletRequest.class, adapters = { CollegeManagement.class,
     ComponentExporter.class }, resourceType = CollegeManagementImpl.RESOURCE_TYPE, defaultInjectionStrategy = DefaultInjectionStrategy.OPTIONAL)
@@ -29,6 +34,16 @@ public class CollegeManagementImpl implements CollegeManagement {
     @ValueMapValue private String stream;
     @ValueMapValue private String collegeimage;
     @ValueMapValue private String getimage;
+    private String dateformat;
+
+
+    @PostConstruct
+    public void init(){
+            DateFormat dateFormat=new SimpleDateFormat("dd/MM/yyyy");
+            dateformat=dateFormat.format(dob);
+            System.out.println(dateformat);
+        }
+       
 
     static final String RESOURCE_TYPE = "wknd-spa-react/components/collegemanagement";
     @Override 
@@ -53,7 +68,7 @@ public class CollegeManagementImpl implements CollegeManagement {
     }
     @Override
     public String getDOB(){
-        return dob;
+        return dateformat;
     }
     @Override
     public String getGender(){

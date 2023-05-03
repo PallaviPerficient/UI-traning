@@ -1,6 +1,6 @@
 import React from 'react'
 import { MapTo } from '@adobe/aem-react-editable-components';
-import './collegemanagement.css'
+import './collegemanagement.scss'
 
 const CollegeManagementConfig = {
     empty :'CollegeManagement',
