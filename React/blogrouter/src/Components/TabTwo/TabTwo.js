@@ -3,7 +3,7 @@ import'./TabTwo.css'
 
 const TabTwo = () => {
   return (
-    <div>Tab Two</div>
+    <div className='tabtwo'>Tab Two</div>
   )
 }
 

@@ -1,0 +1,119 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+nav{
+  background-color: #000;
+}
+nav div{
+  color: #ee0000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.3rem 0;
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+.grid {
+  display: grid;
+  gap: 0rem;
+}
+
+.grid-two-column {
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+.gap1{
+  gap: 1rem;
+}
+.amount-form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  border: 1px solid;
+  text-align: center;
+}
+
+.amount-form h3 {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+}
+
+.amount-form label {
+  text-align: right;
+}
+.amount-form input{
+  text-align:left;
+  margin-bottom: 0.8rem;
+}
+
+.submit-btn {
+  padding: 0.3rem 0.5rem;
+  margin-top: 2rem;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 1rem 0;
+}
+
+.green-brdr{
+  border:2px solid #4caf50;
+}
+
+.red-brdr{
+  border:2px solid #e73d3d;
+}
+
+.balancewrap {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.amount-box {
+  border: 1px solid #0000ff;
+  padding: 0.5rem;
+  font-weight: 700;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.ledger-list h3 {
+  font-size: 2.2rem;
+  text-align: center;
+  margin: 1rem 0 2rem;
+}
+
+table.ledger-table {
+  width: 100%;
+}
+
+table.ledger-table, td, th {
+  border: 1px solid #fff;
+  text-align: center;
+}
+
+table.ledger-table th {
+  background: #babbbb;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+tbody.ledger-tbody tr:nth-child(even) {
+  background: #d5dad5;
+}

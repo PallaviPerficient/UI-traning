@@ -1,5 +1,9 @@
-div{
+.tabone{
+    font-size: 70px;
+    margin: 200px auto;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-weight: bold;
     text-align: center;
-    font-size: 25px;
-    color: aliceblue;
+
 }

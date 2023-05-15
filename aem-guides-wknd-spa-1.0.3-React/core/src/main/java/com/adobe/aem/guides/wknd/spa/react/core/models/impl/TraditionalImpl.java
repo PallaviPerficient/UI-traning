@@ -1,11 +1,9 @@
 package com.adobe.aem.guides.wknd.spa.react.core.models.impl;
-
 import org.apache.sling.models.annotations.*;
 import org.apache.sling.models.annotations.injectorspecific.ValueMapValue;
 import com.adobe.cq.export.json.ComponentExporter;
 import com.adobe.cq.export.json.ExporterConstants;
 import org.apache.sling.api.SlingHttpServletRequest;
-
 import com.adobe.aem.guides.wknd.spa.react.core.models.Traditional;
 
 @Model(adaptables = SlingHttpServletRequest.class, adapters = { Traditional.class,
@@ -15,6 +13,7 @@ public class TraditionalImpl implements Traditional {
 
     @ValueMapValue
     private String textTitle;
+    @ValueMapValue
     private String text;
 
     static final String RESOURCE_TYPE = "wknd-spa-react/components/traditionalComponent";

@@ -1,20 +1,19 @@
 import React from 'react';
-import {NavLink} from 'react-router-dom';
+import {Link} from 'react-router-dom';
 import './navbar.css'
-
 const Navbar = () => {
   return (
     <>
         <nav>
             <ul>
                 <li>
-                    <NavLink to="/">Tab-One</NavLink>
+                    <Link to="/">Tab-One</Link>
                 </li>
                 <li>
-                    <NavLink to="/tab-two">Tab-Two</NavLink>
+                    <Link to="/tab-two">Tab-Two</Link>
                 </li>
                 <li>
-                    <NavLink to="/tab-three">Tab-Three</NavLink>
+                    <Link to="/tab-three">Tab-Three</Link>
                 </li>
             </ul>
         </nav>
