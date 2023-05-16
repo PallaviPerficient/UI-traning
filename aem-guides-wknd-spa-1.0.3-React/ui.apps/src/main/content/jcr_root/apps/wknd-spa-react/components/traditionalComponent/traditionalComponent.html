@@ -1,7 +1,12 @@
-<sly
-  data-sly-use.obj="com.adobe.aem.guides.wknd.spa.react.core.models.Traditional"
-  data-sly-use.placeholderTemplate="core/wcm/components/commons/v1/templates.html"
-  data-sly-call="${placeholderTemplate.placeholder @ isEmpty=true}" />
-  
+<sly data-sly-use.obj="com.adobe.aem.guides.wknd.spa.react.core.models.Traditional"
+data-sly-use.placeholderTemplate="core/wcm/components/commons/v1/templates.html"
+data-sly-call="${placeholderTemplate.placeholder @ isEmpty=true}" />
+Title = ${obj.textTitle}
+<br>
+Description = ${obj.text}
+<br>
+Image:
+<img src="${obj.fileReference}" />
 </sly>
-hello
+
+

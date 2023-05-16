@@ -4,5 +4,5 @@ import com.adobe.cq.export.json.ComponentExporter;
 public interface Traditional  extends ComponentExporter{
     public String getTextTitle();
     public String getText();
-    public String getImage();
+    public String getFileReference();
 }
