@@ -87,7 +87,7 @@ const ExpenseForm = (props) => {
             value={enteredDate}
           />
         </div>
-        <button type='submit' className='addExpenseButton'>Add Expense</button>
+        <button type='submit' className='addExpenseButton'>Add Expenses</button>
       </div>
     </form>
   );
