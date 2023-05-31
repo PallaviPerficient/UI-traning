@@ -1,0 +1,29 @@
+.Card-container{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+    background-color: rgb(110, 110, 109);
+    margin: 20px auto;
+    display:grid;
+    padding: 20px;
+    border: 2px solid rgb(223, 223, 211);
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+.Card-container label{
+    color: rgb(31, 24, 14);
+    display: block;
+    font-size: 18px;
+    font-family: -webkit-body;
+}
+.Card-container input{
+    margin:5px;
+    height: 30px;
+}
+.Card-container button{
+    width: 20%;
+    background-color: #6e1b1b;;
+    color: white;
+    margin: 10px auto;
+    border-radius: 10px;
+    height: 30px;
+}
