@@ -1,0 +1,22 @@
+.registration{
+margin: 24px;
+}
+.registration-heading{
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 12px;
+}
+.registration ul{
+    list-style-type:decimal; 
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 19px;
+}
+.registration li{
+    word-spacing: 20px;
+}
+table, th, td {
+    border: 1px solid rgb(59, 56, 56);
+    border-collapse: collapse;
+    padding: 10px;
+    width: -webkit-fill-available;
+  }
