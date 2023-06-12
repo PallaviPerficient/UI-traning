@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <style>
+      .abc {
+        border-bottom: 1px solid red;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="abc"> 1.The border-bottom-color can be specified with a color name.</div>
+  </body>
+
+  <script>
+    // var content = "https://www.fordats.dealerconnection.com/login.aspx?O=U&test=<coursecode>&userid=<starsid>&testtype=Level1"
+    //     console.log(content);
+    //     var coursecode= "test";
+    //     var starsid= "123456789";
+    //     var position= content.indexOf("coursecode");
+    //     var abc= content.indexOf('starsid');
+    //     console.log("pk",position)
+
+    let text ="https://www.fordats.dealerconnection.com/login.aspx?O=U&test=<coursecode>&userid=<starsid>&testtype=Level1";
+    let coursecode = text.replace("coursecode", "test");
+    let starsid = text.replace("starsid", "123456789");
+    // console.log("coursecode",coursecode);
+    // console.log("starsid",starsid);
+    let third = text.replace("coursecode", "test" | "starsid", "123456789");
+    console.log("starsid",third);
+
+
+   </script>
+
+</html>
