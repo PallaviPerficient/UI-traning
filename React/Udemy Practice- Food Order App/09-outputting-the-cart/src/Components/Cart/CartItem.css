@@ -12,14 +12,14 @@
   color: #363636;
 }
 
-.summary {
+.summary-cartitem {
   width: 10rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.price {
+.price-cartitem {
   font-weight: bold;
   color: #8a2b06;
 }
@@ -32,7 +32,7 @@
   color: #363636;
 }
 
-.actions {
+.actions-cartitem {
   display: flex;
   flex-direction: column;
 }
