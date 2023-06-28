@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+</head>
+<style>
+    ul {
+  list-style: none;
+}
+
+.tab-switcher {
+  display: inline-block;
+  cursor: pointer;
+  margin-right: 25px;
+}
+</style>
+<script type="text/javascript">
+$(document).ready(function () {
+    var previousActiveTabIndex = 0;
+
+    $(".tab-switcher").on('click keypress', function (event) {
+        // event.which === 13 means the "Enter" key is pressed
+
+        if ((event.type === "keypress" && event.which === 13) || event.type === "click") {
+
+            var tabClicked = $(this).data("tab-index");
+
+            if(tabClicked != previousActiveTabIndex) {
+                $("#allTabsContainer .tab-container").each(function () {
+                    if($(this).data("tab-index") == tabClicked) {
+                        $(".tab-container").hide();
+                        $(this).show();
+                        previousActiveTabIndex = $(this).data("tab-index");
+                        return;
+                    }
+                });
+            }
+        }
+    });
+});
+</script>
+<body>
+<div id="tabs">
+  <ul>
+    <li><a href="#tabs-1">ONE</a></li>
+    <li><a href="#tabs-2">TWO</a></li>
+    <li><a href="#tabs-3">and THREE</a></li>
+  </ul>
+  <div id="tabs-1">
+    <p>This is TAB 1, now is the time.</p>
+    <p><a href="#tabs-3">I
+               want to open tab 3</a></p>
+  </div>
+  <div id="tabs-2">
+    <p>This is TAB 2, now is the time.</p>
+    <p><a href="#tabs-2">I
+               want to open tab 2</a></p>
+  </div>
+  <div id="tabs-3">
+    <p>This is TAB 3, now is the time.</p>
+    <p><a href="#tabs-1">I
+               want to open tab 1</a></p>
+  </div>
+</div>
+</body>
+</html>
