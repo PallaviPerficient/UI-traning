@@ -1,3 +1,4 @@
+// to run these use command node filename...i.e node index.js
 const redux = require('redux');
 // create Store method which we have use to create the store
 const createStore = redux.createStore
