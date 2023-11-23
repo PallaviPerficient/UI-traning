@@ -1,0 +1,19 @@
+.boxa{
+    border :2px solid red;
+    width: auto;
+    height: auto;
+    text-align: center;
+    margin: 10px 25px;
+    padding: 10px;
+}
+.btn{
+    display: inline-grid;
+    height: 10px;
+    margin: 35px 10px;
+}
+span{
+    font-size: 20px;
+}
+.container{
+    display: flex;
+}

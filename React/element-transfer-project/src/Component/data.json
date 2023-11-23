@@ -1,0 +1,23 @@
+{
+  "carName": [
+    {
+      "carName": "Toyota Camry",
+      "status":"open"
+    },
+    {
+      "carName": "Honda Civic",
+      "status":"open"
+
+    },
+    {
+      "carName": "Ford F-150",
+      "status":"open"
+
+    },
+    {
+      "carName": "Chevrolet Malibu",
+      "status":"open"
+
+    }
+  ]
+}
