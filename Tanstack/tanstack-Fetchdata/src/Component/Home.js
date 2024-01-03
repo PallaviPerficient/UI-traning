@@ -14,7 +14,7 @@ const Home = () => {
 
     <>
     <span>
-        Data Post
+        Data Fetch
     </span>
     <div>{data?.title}</div>
     </>
