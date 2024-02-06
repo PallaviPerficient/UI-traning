@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Object Destructuring</h2>
+</body>
+<script>
+    // Extracting properties
+    const person ={name: 'David' , age:25 ,city:'london'}
+    const {name ,age} = person;
+    console.log(name,age); // David 25
+
+    //Default Values in Object Destructuring
+    const settings ={fontSize:16 , theme:'light'};
+    const{fontsize ,theme ,language ='en'} =setting;
+    console.log("20",language);
+</script>
+</html>

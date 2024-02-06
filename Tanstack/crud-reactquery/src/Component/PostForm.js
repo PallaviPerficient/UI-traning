@@ -21,7 +21,6 @@ const PostForm = ( {onSubmit} ) => {
 
     const handleSubmit =(e) =>{
         e.preventDefault();
-        onSubmit(post)
         setPost({
             title :"",
             body:''
