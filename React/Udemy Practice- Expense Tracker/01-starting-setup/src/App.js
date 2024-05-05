@@ -24,6 +24,7 @@ const App = () => {
   ];
   return (
     <div>
+      <p>Exprense tracker</p>
       <ExpenseItem  expensedata={expenses}/>
     </div>
   );
