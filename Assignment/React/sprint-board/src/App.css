@@ -1,0 +1,44 @@
+.board {
+  display: flex;
+  justify-content: space-between;
+  overflow-x: auto;
+}
+
+.column {
+  width: 200px;
+  padding: 10px;
+  background: #f0f0f0;
+  margin: 10px;
+}
+
+.item {
+  background: #fff;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  padding: 20px;
+  border: 1px solid #ddd;
+}
+
+input, select, button {
+  margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  .board {
+    overflow-x: scroll;
+  }
+
+  .column {
+    width: 90vw;
+  }
+}
