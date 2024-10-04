@@ -1,0 +1,38 @@
+.test {
+  border: 1px solid red;
+}
+
+.main-container {
+  max-width: 1148px;
+  margin: 0 auto;
+}
+
+table.todo-table {
+  width: 100%;
+  table-layout: auto;
+  border-collapse: collapse;
+  /* border: 1px solid; */
+
+  td {
+    border: 1px solid;
+  }
+  td.border-left-0 {
+    border-left: none;
+  }
+}
+
+.btn-detele-item {
+  background-color: rgb(253, 233, 233);
+  color: red;
+  /* padding: 10px; */
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  border: 1px solid red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 16px;
+  font-size: 16px;
+  font-stretch: expanded;
+}

@@ -1,0 +1,8 @@
+.createTicket{
+  border:1px solid red;
+}
+.ticketBoard{
+  border: 1px solid green;
+  height:50px;
+  width: 100%;
+}
